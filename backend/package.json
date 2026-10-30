@@ -1,0 +1,19 @@
+{
+  "name": "mern-crm-backend",
+  "version": "1.0.0",
+  "description": "Mini-CRM backend - Leerjaar 2 Software Development",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env server.js",
+    "start": "node --env-file=.env server.js"
+  },
+  "keywords": ["mern", "express", "mongodb", "crm"],
+  "author": "CMT Software Development",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.0.0",
+    "mongoose": "^8.0.0"
+  }
+}
